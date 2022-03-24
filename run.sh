@@ -58,4 +58,4 @@ else
     echo "load-module module-virtual-surround-sink sink_name=vsurround sink_properties=device.description=VirtualSurround hrir=$HOME/.local/share/hrir/hrir.wav master=$sink" >> $config_file
 fi
 
-echo "Please reboot"
+echo "Please logout ang login again"
