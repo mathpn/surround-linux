@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# fix for ubuntu 20.04 and possibly other systems
+# fix for some linux distros
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root"
   exit
